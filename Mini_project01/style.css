@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Kanit', sans-serif;
+}
+body{
+    background: url(./asset/bg.jpg) no-repeat center center fixed;
+    background-size: cover;
+    /* background-repeat: no-repeat; */
+}
+.container{
+    /* border: 5px solid purple; */
+    position: absolute;
+    top: 30%;
+    left: 45%;
+}
+.container h1{
+    font-size: 34px;
+    display: inline-block;
+    color: white;
+    border-bottom: 2px solid purple;
+    /* margin-bottom: 10px; */
+    padding: 12px 0px;
+}
+.box{
+    width: 100%;
+    margin: 32px 0px;
+    border-bottom: 2px solid  purple;
+    /* border: 2px solid purple; */
+}
+.box input{
+    background: none;
+    width: 75%;
+    border: none;
+    padding: 0px 0px;
+    font-size: 18px;
+    outline: none;
+    font-weight: bold;
+    /* color: white; */
+}
+.box i{
+    width: 8%;
+    /* padding: 0px 12px; */
+    text-align: center;
+    color: white;
+}
+.btn{
+    color: white;
+    width:20%;
+    margin: 12px 5px;
+    padding:0px 12px;
+    border: 2px solid purple;
+    border-radius:10px;
+    font-size: 18px;
+    cursor: pointer;
+    background: none;
+    outline: none;  
+}
+.btn:hover{
+    color: purple;
+    background: white;
+}
+
