@@ -9,7 +9,6 @@ body{
 .container{
     margin: 0 34px;
     padding: 8px;
-
 }
 .header_nav{
     display: flex;
@@ -33,13 +32,6 @@ body{
 .header_nav-item a:hover{
     color: green;
     text-decoration: underline;
-}
-/* footer css  */
-.footer{
-    background-color: black;
-    align-items: center;
-    color: white;
-    padding: 16px;
 }
 /* main */
 /* section 1 */
@@ -95,6 +87,13 @@ body{
 .second_text{
     color: #818181;
     font-size: 25px;
+}
+/* footer css  */
+.footer{
+    background-color: black;
+    align-items: center;
+    color: white;
+    padding: 16px;
 }
 .footer-text{
     text-align: center;
